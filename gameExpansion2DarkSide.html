@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">  
+<html>
+  <head>
+    <title>Game Expansion: Dark Side</title>
+  </head>
+
+ 
+    
+    <style>
+    
+    .item1 { grid-column-start: 1; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;}
+    .item2 { grid-column-start: 1; grid-column-end: 1; grid-row-start: 2; grid-row-end: 3;}
+    .item3 { grid-column-start: 2; grid-column-end: 4; grid-row-start: 2; grid-row-end: 3;}
+    .item4 { grid-column-start: 1; grid-column-end: 4; grid-row-start: 3; grid-row-end: 4;}
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: 250px 1fr 1fr;
+      gap: 10px;
+      padding: 2px;
+      background-color: rgb(37, 42, 37); /* For browsers that do not support gradients */
+      background-image: linear-gradient(to right, rgb(37, 42, 37),rgb(4, 44, 4) , darkgrey);
+    }
+    
+    .grid-container >div {
+      text-align: center;
+      background-image: linear-gradient(to left, lime , rgb(37, 42, 37));
+    }
+    
+    </style>
+  
+
+    <img src="Images/zLogoWith2024.png" alt="Zombicide Logo" style="width:400px;">
+    <img src="Images/darkSideBox_3.png" alt="Dark Side Heading" style="width:300px;">
+    <img src="Images/darkSideStaringBack.png" alt="Dark Side Heading" style="width:400px;">
+
+
+  <body>
+
+  <div class="grid-container">
+
+      <div class="item1">
+          <img src="Images/darkSideBanner_2.png" alt="Board Game Image" style="width:900px;height:300px;">
+      </div>
+      
+      <div class="item2">
+        <p>
+        <img src="Images/zombicide_invader_miniature.png" alt="Miniatures" style="width:200px" class="centre">
+      </p> 
+          <h2>Discover</h2>
+          
+          <p><button onclick="document.location='index.html'"><img src="Images/homeBox_3.png" style="width:180px;" alt="Home Page Link"></button></p>
+          <p><button onclick="document.location='gameInvader.html'"><img src="Images/invaderBox_3.png" style="width:180px;" alt="Invader Page Link"></button></p>
+          <p><button onclick="document.location='gameExpansion1BlackOps.html'"><img src="Images/blackOpsBox_3.png" style="width:180px;" alt="Black Ops Page Link"></button></p>
+          <p><button onclick="document.location='gameExpansion2DarkSide.html'"><img src="Images/darkSideBox_3.png" style="width:180px;" alt="Dark Side Page Link"></button></p>
+          <p><button onclick="document.location='gameExtras.html'"><img src="Images/extrasBannerBox_5.png" style="width:180px;" alt="Extras Page Link"></button></p>
+
+      </div>
+
+      <div class="item3">
+        
+          <p>
+            This is an entirely new standalone core box, including all the content you would expect in a Zombicide base game: Survivors, Machines, Xenos, Tiles, Missions, Equipment, Tokens, etc.
+            <br><br>
+            While Dark Side is an independent entry point into the Zombicide sci-fi universe, it is also fully compatible with Zombicide: Invader, which means it also acts as an expansion for it, bringing a lot more content to your game.
+            <br><br>
+            In Dark Side, players take on the role of the soldiers of Green Squade and delve into the underground mining facilities of PK-L7. There they will face a new breed of Xenos: Drillers! these red devils benefit from the pits that the Driller Abomination digs up, using them for extra protection, and to make surprise attacks on the Survivors.
+            <br><br>
+            Players will also have to contend with the crushing darkness of the tunnels, which severely hamper ranged combat.
+            <br><br>
+            With new equipment at their disposal, and new tactics to be learned, Green Squad might just stand a chance to make its way out of the dark!
+            <br><br>
+            
+            
+          </p>
+          <img src="Images/darkSide2DBoxFront.jpg" alt="Miniatures" style="width:400px" class="centre">
+        
+      </div>
+      <div class="item4" class="centre">
+        <p>
+
+          <ul class="nav">
+            <li>
+            <a href="homePage.html" > Home </a>
+            <a href="gameInvader.html"> Invader</a>
+            <a href="gameExpansion1BlackOps.html"> Black Ops</a>
+            <a href="gameExpansion2DarkSide.html"> Dark Side</a>
+            <a href="gameExtras.html"> Extras</a>
+            <a href="contactUs.html"> Contact Us</a>
+            </li>
+          </ul>
+          </p>
+      </div>
+  </div>
+  </body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">  
+<html>
+  <head>
+    <title>Game Expansion: Black Ops</title>
+  </head>
+
+  
+    <style>
+    
+    .item1 { grid-column-start: 1; grid-column-end: 4; grid-row-start: 1; grid-row-end: 2;}
+    .item2 { grid-column-start: 1; grid-column-end: 1; grid-row-start: 2; grid-row-end: 3;}
+    .item3 { grid-column-start: 2; grid-column-end: 4; grid-row-start: 2; grid-row-end: 3;}
+    .item4 { grid-column-start: 1; grid-column-end: 4; grid-row-start: 3; grid-row-end: 4;}
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: 250px 1fr 1fr;
+      gap: 5px;
+      padding: 2px;
+      background-color: brown; /* For browsers that do not support gradients */
+      background-image: linear-gradient(to right, orange, black , darkgrey);
+    }
+    
+    .grid-container >div {
+      text-align: center;
+      background-image: linear-gradient(to left, orange, black);
+    }
+    
+    </style>
+
+    <img src="Images/zLogoWith2024.png" alt="Zombicide Logo" style="width:400px;">
+    <img src="Images/blackOpsBox_3.png" alt="Black Ops Heading" style="width:300px;">
+    <img src="Images/blackOpsPaintMeBlack.png" alt="Black Ops Heading" style="width:400px;">
+
+  <body>
+
+  <div class="grid-container">
+
+      <div class="item1">
+          <img src="Images/blackOpsBanner_2.png" alt="Board Game Image" style="width:900px;height:300px;">
+      </div>
+      
+      <div class="item2">
+        <p>
+        <img src="Images/cardsAndMiniatures.png" alt="Cards and Miniatures" style="width:200px" class="centre">
+      </p> 
+          <h2>Discover</h2>
+          
+          <p><button onclick="document.location='index.html'"><img src="Images/homeBox_3.png" style="width:180px;" alt="Home Page Link"></button></p>
+          <p><button onclick="document.location='gameInvader.html'"><img src="Images/invaderBox_3.png" style="width:180px;" alt="Invader Page Link"></button></p>
+          <p><button onclick="document.location='gameExpansion1BlackOps.html'"><img src="Images/blackOpsBox_3.png" style="width:180px;" alt="Black Ops Page Link"></button></p>
+          <p><button onclick="document.location='gameExpansion2DarkSide.html'"><img src="Images/darkSideBox_3.png" style="width:180px;" alt="Dark Side Page Link"></button></p>
+          <p><button onclick="document.location='gameExtras.html'"><img src="Images/extrasBannerBox_5.png" style="width:180px;" alt="Extras Page Link"></button></p>
+
+
+      </div>
+
+      <div class="item3">
+        
+          <p>
+
+            The Zombicide: Black Ops expansion raises the intensity to new heights while bringing new challenges for an elite group of Survivors!
+            <br><br>
+            The Soldiers of Black Squad can be added to your roster, allowing you to play the game with up to 12 players at the same time!
+            <br><br>
+            These battle-hardened soldiers have been called in to deal with the situation on PK-L7, and find a base already being consumed by the Mold.
+            <br><br>
+            The 10 new Missions utilize 3 new tiles containing zones already filled with Mold. That means extra Xeno spawning, and a more imminent threat of the base being lost for good. These Mold zones also feature glowing pods of an altered form of Xenium, which may be fired at causing a Hellfire explosion! As dangerous as that sounds, it may be used for our advantage, if we're careful.
+            <br><br>
+            This dilapidated base is also under threat of a new type of Abomination we call the Juggernaut. This thing is as ugly as it is unstoppable. Upgrading your weapon won't work, concentrating your fire won't work. I guess we'll just need to lure it into one of those sensitive Pod zones.
+            <br><br>
+            Black Squad brings some of its own elite equipment to the mission, including the hard-hitting XN35 "Crawley" Bot, the devastating Meteor Sentry Gun (a rail gun that can hit multiple zones), and an arsenal of powerful Starting Equipment and other gear.
+
+          
+          </p>
+          <img src="Images/blackOpsPaintMeBlack.png" alt="Paint Me Black" style="width:600px" class="centre">
+
+        
+      </div>
+      <div class="item4" class="centre">
+        <p>
+
+          <ul class="nav">
+            <li>
+            <a href="index.html" > Home </a>
+            <a href="gameInvader.html"> Invader</a>
+            <a href="gameExpansion1BlackOps.html"> Black Ops</a>
+            <a href="gameExpansion2DarkSide.html"> Dark Side</a>
+            <a href="gameExtras.html"> Extras</a>
+            <a href="contactUs.html"> Contact Us</a>
+            </li>
+          </ul>
+          </p>
+      </div>
+  </div>
+  </body>
+
+</html>

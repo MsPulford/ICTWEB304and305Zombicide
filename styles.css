@@ -1,0 +1,144 @@
+
+
+h1 {
+    color: silver;
+    font-size: 24px;
+    /*text-decoration: underline;*/
+    font-family: garamond;
+    text-align: center;
+    background-image: url("Images/zombicideLogoNoBG2024.png") max-width 200%;
+
+    /*#linear-gradient: (to right, gold, darkred , darkgrey);*/
+    background-repeat: no-repeat;
+    background-position: right-bottom;
+    margin-right: 20px;
+    background-attachment: fixed;
+
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+h3 {
+    color: #c0c0c0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: orange;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+  color: #c0c0c0;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: silver;
+    background-color: rgb(75, 7, 7);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 80 px;
+    letter-spacing: 1px;
+    column-count: 2;
+    column-gap: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+    border-bottom: 20px solid rgb(75, 7, 7);
+    border-left: 20px solid rgb(75, 7, 7);
+    border-right: 20px solid rgb(75, 7, 7);
+    border-top: 20px solid rgb(75, 7, 7);
+
+}
+
+h6 {
+  color: silver;
+  background-color: rgb(75, 7, 7);
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 80 px;
+  letter-spacing: 1px;
+  column-count: 1;
+  column-gap: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+
+  border-bottom: 20px solid rgb(75, 7, 7);
+  border-left: 20px solid rgb(75, 7, 7);
+  border-right: 20px solid rgb(75, 7, 7);
+  border-top: 20px solid rgb(75, 7, 7);
+
+}
+
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:Georgia;
+    text-align: right;
+    line-height: 28 px;
+    letter-spacing: 1px;
+    column-count: 5;
+    column-gap: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+a:visited {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: silver;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+button {
+    background-color: rgb(15, 14, 14);
+    color: black;
+    font-family:Georgia;
+    padding: 6px 6px;
+    text-align: centre;
+    box-align: centre;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 24px;
+  }
+
+body {
+    background-color: rgb(75,7,7);
+    background-image: repeating-vertical-gradient(black, orange, darkred);         
+    margin-right: 20px;
+    margin-left: 20px;
+      }
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 50%;
+      }
+
